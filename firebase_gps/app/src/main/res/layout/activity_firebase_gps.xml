@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="net.simplifiedcoding.firebaseexample.MainActivity">
+
+
+    <!--<ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/bus" /> -->
+
+
+    <!-- Colocamos el nombre de la variable Nombre-->
+
+    <TextView
+        android:text="ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Colocamos el cuadro donde se escribirá el nombre a mandar-->
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Colocamos el nombre de la variable Dirección-->
+
+    <TextView
+        android:text="Saldo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Colocamos el cuadro donde se escribirá la dirección a mandar-->
+
+    <EditText
+        android:id="@+id/editTextTarifa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <TextView
+        android:text="Tarifa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Colocamos el cuadro donde se escribirá la dirección a mandar-->
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!--Colocamos el boton que enviará el dato a Firebase-->
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:text="Create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Colocamos el nombre de la variable Persons-->
+
+    <TextView
+        android:id="@+id/textViewPersons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

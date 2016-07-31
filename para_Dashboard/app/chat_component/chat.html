@@ -1,0 +1,110 @@
+
+
+   <table class="striped responsive-table" style="display:block; width:100%; height:580px; overflow-y: auto;">
+
+        <thead>
+              <tr>
+              <th data-field="id">ID</th>
+              
+              <th data-field="price">Saldo Anterior</th>
+              <th data-field="price">Tarifa</th>
+              <th data-field="price">Saldo Actual</th>
+
+              <th data-field="name">Hora y Fecha</th>
+              <th data-field="price">Longitud</th>
+              <th data-field="price">Latitud</th>
+          </tr>
+        </thead>
+
+        <tbody>
+
+          <tr ng-repeat="i in $ctrl.messages">
+            <td>{{i.name}}</td>
+
+            <td>{{i.Saldo}}</td>
+            <td>{{i.address}}</td>
+            <td>{{i.Saldo-i.address}}</td>
+
+            <td>{{i.timeStamp}}</td>
+			<td>{{i.longitude}}</td>
+            <td>{{i.latitude}}</td>
+          </tr>
+      </tbody>
+   
+      </table>
+
+
+
+<!-- <div class="row">
+                 <div class="col s12 m3" ng-repeat="hero in $ctrl.superheros" style="height: 670px;">
+                   <div class="card">
+                     <div class="card-image">
+                       <img ng-src="{{hero.thumbnail.path}}.{{hero.thumbnail.extension}}">
+                       <span class="card-title">{{hero.name}}</span>
+                     </div>
+                     <div class="card-content">
+                       <p>  
+                         {{hero.description}} <br>
+                         <h5>{{hero.comics.available}}</h5>
+                       </p>
+                     </div>
+                     <div class="card-action">
+                       <a href="{{hero.comics.collectionURI}}">Comics</a>
+                     </div>
+                   </div>
+                 </div>
+         </div>  -->         
+
+
+
+
+
+
+       
+
+
+<!-- <tr ng-repeat="i in $ctrl.messages">
+            <td>{{$ctrl.messages[$ctrl.num].name}}</td>
+            <td>{{$ctrl.messages[$ctrl.num].timeStamp}}</td>
+			<td>{{$ctrl.messages[$ctrl.num].longitude}}</td>
+            <td>{{$ctrl.messages[$ctrl.num].latitude}}</td>
+          </tr> -->
+
+
+
+
+<!--  <div class="row">
+   <div class="col s12 m9 l10">
+     <div id="introduction" class="section scrollspy">
+       <p>{{$ctrl.messages[$ctrl.num].longitude}} </p>
+     </div>
+
+     <div id="structure" class="section scrollspy">
+       <p>{{$ctrl.messages[$ctrl.num].address}} </p>
+     </div>
+
+     <div id="initialization" class="section scrollspy">
+       <p>{{$ctrl.messages[$ctrl.num].name}}</p>
+     </div>
+   </div>
+   <div class="col hide-on-small-only m3 l2">
+     <ul class="section table-of-contents">
+       <li><a href="#introduction">Introduction</a></li>
+       <li><a href="#structure">Structure</a></li>
+       <li><a href="#initialization">Intialization</a></li>
+     </ul>
+   </div>
+ </div> -->
+
+
+<!-- <div>
+		<form ng-submit="$ctrl.addMessage()">
+			<input ng-model='$ctrl.user' placeholder='nickname'>
+			<input ng-model='$ctrl.message' placeholder='Your message'>
+			<button>Add Message</button>			
+		</form>
+
+		<div ng-repeat='message in $ctrl.messages'>
+			<span>{{message.user}}: </span>{{message.message}}
+		</div>
+</div> -->

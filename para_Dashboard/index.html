@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="chat">
+<head style="padding-left:300px;">
+    <meta charset="UTF-8">
+    <title>Chat</title>
+     <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<sidenav></sidenav>
+
+</head>
+<body style="padding-left:300px;">
+    
+
+    <div class="row">
+      <div class="col s4"><chat></chat></div>
+      <div class="col s8"><time></time></div>
+    </div>
+
+    <div class="row">
+      <div class="col s6"><people></people></div>
+      <div class="col s6"><mapa></mapa></div>
+    </div>
+    
+  <!--   <chat></chat>
+  <mapa></mapa>
+  <people></people>
+  <time></time> -->
+    
+       
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+     <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <!-- Firebase -->
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/1.2.0/angularfire.min.js"></script>
+    <!-- All controllers -->
+    <script src="app/app.js"></script>
+    <script src="app/factory/factory.js"></script>
+    <script src="app/chat_component/chat_component.js"></script>
+    <script src="app/mapa_component/mapa_component.js"></script>
+    <script src="app/people_component/people_component.js"></script>
+    <script src="app/time_component/time_component.js"></script>
+    <script src="app/side_nav/side_nav.js"></script>
+   <!--  Include jQuery first
+   <script src="jquery.js"></script>
+   
+   Then include the plug-in
+   <script src="jquery-plugin.js"></script>
+   
+   Finally run the plug-in
+   <script>
+           $(".button-collapse").sideNav();
+   </script>
+   <script>
+           $('.button-collapse').sideNav('show');
+   </script>
+   <script>
+           $('.button-collapse').sideNav('hide');
+   </script> -->
+
+
+
+</body>
+</html>
